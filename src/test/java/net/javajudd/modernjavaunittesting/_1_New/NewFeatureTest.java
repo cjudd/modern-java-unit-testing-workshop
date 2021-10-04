@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class IgnoreTest {
+class NewFeatureTest {
 
-    //TODO 1.1 - Prevent test from running.
+    //TODO 1.2 - Prevent test from running.
     @Test
     void ignoreTest() {
         fail("Unexpected failure!!! Temporarily prevent this test from running.");
