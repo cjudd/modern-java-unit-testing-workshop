@@ -1,5 +1,6 @@
-package net.javajudd.modernjavaunittesting;
+package net.javajudd.modernjavaunittesting._1_New;
 
+import net.javajudd.modernjavaunittesting._1_New.Counter;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
