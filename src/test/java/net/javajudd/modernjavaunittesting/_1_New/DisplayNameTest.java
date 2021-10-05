@@ -23,9 +23,8 @@ public class DisplayNameTest {
     }
 
     @Nested
-    @DisplayName("Underscore Names")
     @DisplayNameGeneration(ReplaceUnderscores.class)
-    class UnderscoresNames {
+    class Underscores_Names {
         @Test
         void validate_customer() {}
 
