@@ -14,6 +14,7 @@ class NewFeatureTest {
         fail("Expected failure!!! Temporarily prevent this test from running.");
     }
 
+    //TODO 1.8 - Wrap the Customer related tests in a nested customer test class creating Customer instance in lifecycle methods.
     //TODO 1.5 - Test all customer properties with new assert method.
     @Test
     void testAllProperties() {
