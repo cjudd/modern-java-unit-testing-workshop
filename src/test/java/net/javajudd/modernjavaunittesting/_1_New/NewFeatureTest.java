@@ -6,6 +6,7 @@ import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+//TODO 1.8 - Add a display name with an emoji to entertain your coworkers.
 class NewFeatureTest {
 
     //TODO 1.4 - Prevent test from running.
@@ -14,7 +15,7 @@ class NewFeatureTest {
         fail("Expected failure!!! Temporarily prevent this test from running.");
     }
 
-    //TODO 1.8 - Wrap the Customer related tests in a nested customer test class creating Customer instance in lifecycle methods.
+    //TODO 1.7 - Wrap the Customer related tests in a nested customer test class creating Customer instance in lifecycle methods.
     //TODO 1.5 - Test all customer properties with new assert method.
     @Test
     void testAllProperties() {
