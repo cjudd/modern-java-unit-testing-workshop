@@ -1,13 +1,14 @@
 package net.javajudd.modernjavaunittesting._1_New;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-//TODO 1.8 - Add a display name with an emoji to entertain your coworkers.
-class NewFeatureTest {
+@DisplayName("Lab 2 - New Java Features Tests")
+class Lab1Test {
 
     //TODO 1.4 - Prevent test from running.
     @Test
@@ -27,4 +28,8 @@ class NewFeatureTest {
     void testExpectedExceptions() {
         new ArrayList<String>().get(0);
     }
+
+    //TODO 1.8 - Add a display name with an emoji to entertain your coworkers.
+    @Test
+    void displayName() {}
 }
