@@ -12,4 +12,9 @@ class NewFeatureTest {
         fail("Expected failure!!! Temporarily prevent this test from running.");
     }
 
+    //TODO 1.5 - Test all customer properties with new assert method.
+    @Test
+    void allProperties() {
+        Customer customer = new Customer("Jane", "Doe");
+    }
 }
