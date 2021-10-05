@@ -1,4 +1,4 @@
-package net.javajudd.modernjavaunittesting._1_New;
+package net.javajudd.modernjavaunittesting;
 
 public class Counter {
 

@@ -1,5 +1,6 @@
 package net.javajudd.modernjavaunittesting._1_New;
 
+import net.javajudd.modernjavaunittesting.Address;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

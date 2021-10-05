@@ -1,6 +1,6 @@
 package net.javajudd.modernjavaunittesting._2_Redundant;
 
-import net.javajudd.modernjavaunittesting._1_New.Customer;
+import net.javajudd.modernjavaunittesting.Customer;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

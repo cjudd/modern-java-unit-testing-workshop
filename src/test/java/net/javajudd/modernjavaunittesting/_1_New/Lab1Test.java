@@ -1,5 +1,6 @@
 package net.javajudd.modernjavaunittesting._1_New;
 
+import net.javajudd.modernjavaunittesting.Customer;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
