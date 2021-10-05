@@ -3,8 +3,13 @@ package net.javajudd.modernjavaunittesting._1_New;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class AssertTests {
 
@@ -39,5 +44,14 @@ public class AssertTests {
                 () -> assertEquals("43085", address.getZip()),
                 () -> assertEquals("Address{line1='100 Main St.', city='Columbus', state='OH', zip='43085'}", address.toString())
         );
+    }
+
+    @Test
+    void assertExceptions() {
+        Exception ex = assertThrows(
+                FileNotFoundException.class,
+                () -> new FileInputStream(new File("bogus"))
+        );
+        assertEquals("bogus (No such file or directory)", ex.getMessage());
     }
 }
