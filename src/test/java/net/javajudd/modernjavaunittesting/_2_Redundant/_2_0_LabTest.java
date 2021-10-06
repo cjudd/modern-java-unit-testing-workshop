@@ -8,8 +8,8 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.fail;
 
-@DisplayName("Lab 2 - Redundant Tests")
-public class _2_1_LabTest {
+@DisplayName("Lab 2.0 - Redundant Tests")
+public class _2_0_LabTest {
 
     List<Person> people = List.of(
             new Person("Chris", "Judd"),
@@ -23,13 +23,13 @@ public class _2_1_LabTest {
         "Person{firstName='Joseph', lastName='Nusairat'}"
     );
 
-    //TODO: 2.1 - Write test to validate Person toString using Repeated tests.
+    //TODO: 2.0 - Write test to validate Person toString using Repeated tests.
     @Test
     void personToStringRepeated() {
         fail("Implement JUnit Repeated lab.");
     }
 
-    //TODO: 2.2 - Write test to validate Person toString using DynamicTests.
+    //TODO: 2.1 - Write test to validate Person toString using DynamicTests.
     @Test
     void personToStringDynamic() {
         fail("Implement JUnit Dynamic Test lab.");

@@ -10,8 +10,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
-@DisplayName("Lab 4.1 - Fluent Tests")
-public class _4_1_LabTest {
+@DisplayName("Lab 4.0 - Fluent Tests")
+public class _4_0_LabTest {
 
     Person ironman = new Person("Tony", "Stark");
     Person captainAmerica = new Person("Steve", "Rogers");
