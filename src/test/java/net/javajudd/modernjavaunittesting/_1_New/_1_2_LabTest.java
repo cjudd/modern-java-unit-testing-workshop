@@ -2,7 +2,7 @@ package net.javajudd.modernjavaunittesting._1_New;
 
 import org.junit.jupiter.api.*;
 
-@DisplayName("Lab 1.1 - LifeCycle")
+@DisplayName("Lab 1.2 - LifeCycle")
 public class _1_2_LabTest {
 
     // Run tests to see the current output.

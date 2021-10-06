@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@DisplayName("Lab 1 - New Java Features Tests")
+@DisplayName("Lab 1.1 - New Java Features Tests")
 class _1_1_LabTest {
 
     //TODO 1.4 - Prevent test from running.
