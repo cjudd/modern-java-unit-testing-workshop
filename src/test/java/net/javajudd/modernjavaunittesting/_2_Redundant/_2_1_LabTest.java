@@ -9,7 +9,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.fail;
 
 @DisplayName("Lab 2 - Redundant Tests")
-public class Lab2Test {
+public class _2_1_LabTest {
 
     List<Person> people = List.of(
             new Person("Chris", "Judd"),
