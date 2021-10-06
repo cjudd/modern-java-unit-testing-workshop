@@ -1,6 +1,6 @@
 package net.javajudd.modernjavaunittesting._2_Redundant;
 
-import net.javajudd.modernjavaunittesting.Customer;
+import net.javajudd.modernjavaunittesting.Person;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -11,27 +11,27 @@ import static org.junit.jupiter.api.Assertions.fail;
 @DisplayName("Lab 2 - Redundant Tests")
 public class Lab2Test {
 
-    List<Customer> customers = List.of(
-            new Customer("Chris", "Judd"),
-            new Customer("Jim", "Shingler"),
-            new Customer("Joseph", "Nusairat")
+    List<Person> people = List.of(
+            new Person("Chris", "Judd"),
+            new Person("Jim", "Shingler"),
+            new Person("Joseph", "Nusairat")
     );
 
     List<String> toStrings = List.of(
-        "Customer{firstName='Chris', lastName='Judd'}",
-        "Customer{firstName='Jim', lastName='Shingler'}",
-        "Customer{firstName='Joseph', lastName='Nusairat'}"
+        "Person{firstName='Chris', lastName='Judd'}",
+        "Person{firstName='Jim', lastName='Shingler'}",
+        "Person{firstName='Joseph', lastName='Nusairat'}"
     );
 
-    //TODO: 2.1 - Write test to validate Customer toString using Repeated tests.
+    //TODO: 2.1 - Write test to validate Person toString using Repeated tests.
     @Test
-    void customerToStringRepeated() {
+    void personToStringRepeated() {
         fail("Implement JUnit Repeated lab.");
     }
 
-    //TODO: 2.2 - Write test to validate Customer toString using DynamicTests.
+    //TODO: 2.2 - Write test to validate Person toString using DynamicTests.
     @Test
-    void customerToStringDynamic() {
+    void personToStringDynamic() {
         fail("Implement JUnit Dynamic Test lab.");
     }
 }

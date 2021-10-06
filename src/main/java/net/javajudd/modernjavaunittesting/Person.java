@@ -1,10 +1,10 @@
 package net.javajudd.modernjavaunittesting;
 
-public class Customer {
+public class Person {
     String firstName;
     String lastName;
 
-    public Customer(String firstName, String lastName) {
+    public Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
@@ -19,7 +19,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "Customer{" +
+        return "Person{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 '}';

@@ -13,26 +13,26 @@ public class DisplayNameTest {
     @DisplayName("Default Display Names")
     class DefaultMethodNames {
         @Test
-        void validateCustomer() {}
+        void validateUser() {}
 
         @Test
-        void invalidCustomerIdDoesNotExist() {}
+        void invalidUserIdDoesNotExist() {}
 
         @Test
-        void invalid_customer_password() {}
+        void invalid_user_password() {}
     }
 
     @Nested
     @DisplayNameGeneration(ReplaceUnderscores.class)
     class Underscores_Names {
         @Test
-        void validate_customer() {}
+        void validate_user() {}
 
         @Test
-        void invalid_customer_id_does_not_exist() {}
+        void invalid_user_id_does_not_exist() {}
 
         @Test
-        void invalid_customer_password() {}
+        void invalid_user_password() {}
     }
 
     @Nested
